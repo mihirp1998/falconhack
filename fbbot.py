@@ -86,7 +86,7 @@ class Jarvis(Client):
 
 
 # Create an object of our class, enter your email and password for facebook.
-client = Jarvis("sakshiraut15@yahoo.com", "helloworld")
+client = Jarvis("username", "password")
 dictVal = pickle.load(open('dictfile.p','rb'))
 titleVal = pickle.load(open('titleVec.p','rb'))
 # Listen for new message
